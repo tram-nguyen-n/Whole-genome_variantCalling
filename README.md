@@ -1,5 +1,5 @@
 # FSJ_variantCalling
-Scalable pipeline for variant discovery and quality filtering for paired-end, short-read sequences. This pipeline was developed in collaboration with Dr. Elissa Cosgrove at Cornell University. For questions regarding this pipeline, feel free to contact tn337@cornell.edu
+Scalable pipeline for variant discovery and quality filtering for paired-end, short-read sequences. This pipeline was developed in collaboration with Dr. Elissa Cosgrove at Cornell University. For questions regarding this pipeline, feel free to contact Tram Nguyen at tn337@cornell.edu
 
 Here, we present the pipeline using Florida Scrub-Jay whole-genome sequences. However, this workflow can be adapted to other genomic short-read datasets. This workflow follows the GATK Best Practices protocol and is executed with a SLURM scheduler. Broadly, the pipeline consists of six phases: from alignment to a reference genome, to variant calling using GATK HaplotypeCaller, to additional quality filtering (site depth, missingness, genotyping quality, etc). Note that additional filtering thresholds are specific to our dataset and should be modified accordingly. 
 
