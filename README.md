@@ -53,14 +53,14 @@ Input required for this phase:
    2. Tab-delimited text file containing Sample ID, FlowCell ID, Sequencing Lane, and Run number. An example file is given below:
    
   ```
-  JDSP902 HNLMNDSXX       L1      1
-PLE151  HNK7FDSXX       L2      1
-ONF207  HNLJLDSXX       L1      1
-PLE176  HNLMNDSXX       L1      1
-PLE132  HNLMNDSXX       L1      1
-ABS639  HNK7FDSXX       L1      1
-ABS792  HNK7FDSXX       L1      1
-PLE145  HNLJLDSXX       L1      1
+  SAMPLE1 HNLMNDSXX       L1      1
+SAMPLE2  HNK7FDSXX       L2      1
+SAMPLE3  HNLJLDSXX       L1      1
+SAMPLE4  HNLMNDSXX       L1      1
+SAMPLE5  HNLMNDSXX       L1      1
+SAMPLE6  HNK7FDSXX       L1      1
+SAMPLE7  HNK7FDSXX       L1      1
+SAMPLE8  HNLJLDSXX       L1      1
 ```
 
 # Phase 3
