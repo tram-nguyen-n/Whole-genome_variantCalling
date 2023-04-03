@@ -74,6 +74,13 @@ Input required for this phase:
 
 The outputs of this phase will be gvcfs per contig across all samples.
 
+To obtain your list of chromosomes/contigs, first index your .fasta reference genome. Then extract the contig names. Below is an example:
+
+```
+samtools reference.fasta # index your fasta first 
+cut -f1 reference.fasta.fai > contigs.txt
+```
+
 # Phase 4
 Phase 4: Run GATK GenotypeGVCFs per contigs. 
 
